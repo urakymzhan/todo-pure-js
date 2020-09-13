@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 20px auto;
+  width: 380px;
+  text-align: center;
+  padding: 5px;
+  color: gray;
+}
+.if-empty {
+  display: none;
+}
+
+#list-img {
+  width: 50px;
+  height: 50px;
+}
+
+h4 {
+  color: rgb(23, 23, 23);
+}
+h1 {
+  color: rgb(162, 160, 160);
+  font-size: 52px;
+  margin-bottom: 12px;
+}
+input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid rgb(108, 108, 108);
+}
+
+/* todo */
+.todo {
+  color: rgb(16, 16, 16);
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+.todosList {
+  padding-left: 0;
+  list-style: none;
+  overflow: hidden;
+  margin: 14px auto;
+}
+.deleteIcon {
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+  margin-bottom: -1px;
+}
+
+.counters {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+#last-task {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 30px;
+  color: #fff;
+  background-color: rgb(83, 163, 225);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
